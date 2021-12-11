@@ -2,8 +2,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background-color: black;
   }
-  
+
+
   textarea{
     background: transparent;
     border: none;
@@ -12,10 +14,23 @@ body {
     border-left: 1px solid black;
     padding: 10px;
   }
+
+  .container {
+      background-color: gray;
+      border-radius: 10px;
+      border-width: 1px;
+      padding: 20px;
+      margin-bottom: 60px;
+      border: solid black;
+  }
+
+  /* .small-container {
+
+  } */
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: gray;
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
@@ -27,9 +42,14 @@ body {
   
   .time-block{
     text-align: center;
-    border-radius: 15px;
+    border-radius: 5px;
+    padding: 10px;
   }
   
+  .time {
+    
+  }
+
   .row {
     white-space: pre-wrap;
     height: 80px;
@@ -61,6 +81,7 @@ body {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+  
     background-color: #06AED5;
     color: white;
   }
