@@ -19,8 +19,7 @@ body {
       border-radius: 15px;
       padding: 5px;
       background-color: black;
-
-      color: rgb(255, 60, 60);
+      color: rgb(201, 201, 201);
 
   }
 
@@ -31,6 +30,7 @@ body {
       padding: 20px;
       margin-bottom: 60px;
       border: solid red;
+      padding-top: 20px;
   }
 
   .small-container {
@@ -48,6 +48,13 @@ body {
     background-image: linear-gradient(red, gray);
   }
   
+  .day {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 40px; 
+  }
+
   .description{
     white-space: pre-wrap;
     top: 50%;
@@ -75,13 +82,18 @@ body {
     border: 1px solid white;
     font-size: 15px;
     font-weight: bold;
-
   }
 
   .saveBtn {
     border: 1px solid white;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    background-image: linear-gradient(red, gray);
+    color: white;
+  }
+
+  .deleteBtn {
+    border: 1px solid white;
     background-image: linear-gradient(red, gray);
     color: white;
   }
