@@ -5,7 +5,6 @@ body {
     background-color: black;
   }
 
-
   textarea{
     background: transparent;
     border: none;
@@ -13,6 +12,15 @@ body {
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
+
+  }
+
+  .text-container {
+      border-radius: 15px;
+      padding: 5px;
+      background-color: black;
+      color: rgb(201, 201, 201);
+
   }
 
   .container {
@@ -21,33 +29,42 @@ body {
       border-width: 1px;
       padding: 20px;
       margin-bottom: 60px;
-      border: solid black;
+      border: solid red;
+      padding-top: 20px;
   }
 
-  /* .small-container {
+  .small-container {
+      background-color: black;
+      border-radius: 15px;
+      border: solid red;
+  }
 
-  } */
-  
   .jumbotron {
     text-align: center;
     background-color: gray;
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
+    background-image: linear-gradient(red, gray);
   }
   
+  .day {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 40px; 
+  }
+
   .description{
     white-space: pre-wrap;
+    top: 50%;
+    background-color: white;
   }
   
   .time-block{
     text-align: center;
-    border-radius: 5px;
-    padding: 10px;
-  }
-  
-  .time {
-    
+    border-radius: 40px;
+    display: flex;
   }
 
   .row {
@@ -57,36 +74,41 @@ body {
   }
   
   .hour {
-    background-color: #ffffff;
+    background-image: linear-gradient(red, gray);
     color: #000000;
     border-top: 1px dashed #000000;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid white;
+    font-size: 15px;
+    font-weight: bold;
   }
-  
-  .past {
-    background-color: #d3d3d3;
+
+  .saveBtn {
+    border: 1px solid white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-image: linear-gradient(red, gray);
+    color: white;
+  }
+
+  .deleteBtn {
+    border: 1px solid white;
+    background-image: linear-gradient(red, gray);
     color: white;
   }
   
-  .present {
+  .pastTime {
+    background-color: #7c7c7c;
+    color: white;
+  }
+  
+  .currentTime {
     background-color: #ff6961;
     color: white;
   }
   
-  .future {
-    background-color: #77dd77;
+  .futureTime {
+    background-color: #495bff;
     color: white;
-  }
-  
-  .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-  
-    background-color: #06AED5;
-    color: white;
-  }
-  
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
   }
