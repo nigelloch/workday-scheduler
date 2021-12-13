@@ -1,6 +1,6 @@
 # workday-scheduler
 
-
+The Workday Scheduler application is deployed here:  https://nigelloch.github.io/workday-scheduler/
 
 
 ![alt text](./images/WorkDayScheduler.png)
